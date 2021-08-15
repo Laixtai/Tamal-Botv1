@@ -1,0 +1,12 @@
+{
+  "name": "TamalitoBot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "TamalBotv1.js",
+  "scripts": {
+  "start": "TamalBotv1.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1"
+  }
+}
