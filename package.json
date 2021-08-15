@@ -1,7 +1,7 @@
 {
   "name": "TamalitoBot",
   "version": "0.0.1",
-  "description": "",
+  "description": "Tamal de pisque",
   "main": "TamalBotv1.js",
   "scripts": {
   "start": "TamalBotv1.js"
