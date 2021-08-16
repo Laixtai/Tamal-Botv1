@@ -1,10 +1,10 @@
 {
-  "name": "TamalitoBot",
+  "name": "tamalitoBot",
   "version": "0.0.1",
-  "description": "Tamal de pisque",
-  "main": "TamalBotv1.js",
+  "description": "tamal de pisque",
+  "main": "tamalbotv1.js",
   "scripts": {
-  "start": "TamalBotv1.js"
+  "start": "tamalbotv1.js"
   },
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
