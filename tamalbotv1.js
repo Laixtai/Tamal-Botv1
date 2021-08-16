@@ -9,7 +9,7 @@ async function iniciar () {
         client.on('qr', () => {
         })
 
-        fs.existsSync('./TamalBotv1.json') && client.loadAuthInfo('./TamalBotv1.json')
+        fs.existsSync('./tamalbotv1.json') && client.loadAuthInfo('./tamalbotv1.json')
 
         client.on('connecting', () => {
         console.log('Conectando')
@@ -19,7 +19,7 @@ async function iniciar () {
         console.log('Conectado exitosamente :D')
         })
         await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./TamalBotv1.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./tamalbotv1.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         }
 
 iniciar ()
